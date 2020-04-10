@@ -1,3 +1,5 @@
+// takes O(N^2); SlOw
+
 public class QuickFindUF{
     private int arr[];
 
