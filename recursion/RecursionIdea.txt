@@ -1,0 +1,12 @@
+// The basic concept behind recursion
+//if the base case is satisfied then exit else subdivide the problem and call the function again
+
+sampleRecursion(parameter){
+    if( base case is satisfied){
+        return someBaseCaseValue
+    }
+    else{
+        sampleRecursion(modifiedParameter)
+    }
+}
+
