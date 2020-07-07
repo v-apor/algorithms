@@ -4,4 +4,5 @@
 		> Recursion is cool when we want readable and DRY code (Don't repeat Yourself) but it leaves Large Stack memory footprint (bad for space).
 4: 07/07/2020: Sorting algo implementation: >Bubble Sort >Selection Sort
 	       + Insertion Sort (took me too much time to code; should always make logic before coding)
+	       + Merge Sort (A tough one!!!) Need to practice recursion more!!! O(NlogN) though <3
 
