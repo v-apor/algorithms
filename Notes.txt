@@ -3,4 +3,5 @@
 3: 06/07/2020:  Not all recursive algos are good, eg for fibonacci (which I failed to code) is O(2^N) whichc is way worse than iterative approach.
 		> Recursion is cool when we want readable and DRY code (Don't repeat Yourself) but it leaves Large Stack memory footprint (bad for space).
 4: 07/07/2020: Sorting algo implementation: >Bubble Sort >Selection Sort
+	       + Insertion Sort (took me too much time to code; should always make logic before coding)
 
