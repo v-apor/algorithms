@@ -1,25 +1,29 @@
-class BubbleSort{
-    void sort(int[] arr){
-        int temp;
-        for(int i=0; i<arr.length; i++){
-            for(int j=i; j<arr.length; j++){
-                if(arr[i] > arr[j]){
-                    temp = arr[i];
-                    arr[i] = arr[j];
-                    arr[j] = temp;
+import java.util.Scanner;
+public class BubbleSort{
+
+    public static void sort(int[] arr){                 // O(N^2) time ; O(1) space
+        int tmp = arr[0];
+        for(int itr = arr.length; itr>=2; itr--){
+            for(int i=0; i<itr-1; i++){                     
+                if(arr[i] > arr[i+1]){
+                    tmp = arr[i];
+                    arr[i] = arr[i+1];
+                    arr[i+1] = tmp;
                 }
             }
         }
     }
-}
 
-class Solution{
     public static void main(String[] args){
-        int arr[] = {12, 215, 432, 5, 32, 46, 23, 6 };
-        BubbleSort obj = new BubbleSort();
-        obj.sort(arr);
+        Scanner sObj = new Scanner(System.in);
+        int n = sObj.nextInt();
+        int[] arr = new int[n];
+        while(n-- != 0){
+            arr[n] = sObj.nextInt();
+        }
+        sort(arr);
         for(int ele: arr){
-            System.out.println(ele);
+            System.out.print(ele + " ");
         }
     }
 }
