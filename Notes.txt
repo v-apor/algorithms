@@ -1,8 +1,28 @@
 1: 15/06/2020:	Big O asymptotic notation for both time and space complexity.
 2: 05/07/2020:  Recursion Intro + StackOverflow + Anatomy/structure of an recursive algorithm
 3: 06/07/2020:  Not all recursive algos are good, eg for fibonacci (which I failed to code) is O(2^N) whichc is way worse than iterative approach.
-		> Recursion is cool when we want readable and DRY code (Don't repeat Yourself) but it leaves Large Stack memory footprint (bad for space).
-4: 07/07/2020: Sorting algo implementation: >Bubble Sort >Selection Sort
-	       + Insertion Sort (took me too much time to code; should always make logic before coding)
-	       + Merge Sort (A tough one!!!) Need to practice recursion more!!! O(NlogN) though <3
+				> Recursion is cool when we want readable and DRY code (Don't repeat Yourself) but it leaves Large Stack memory footprint (bad for space).
+4: 07/07/2020:  Sorting algo implementation: >Bubble Sort >Selection Sort
+	      		+ Insertion Sort (took me too much time to code; should always make logic before coding)
+	      		+ Merge Sort (A tough one!!!) Need to practice recursion more!!! O(NlogN) though <3
+5: 08/07/2020:  The best possible way to sort things is O(NlogN) when we compare elements,
+				There is another way which can give better results, eg Radix sort, Counting sort etc,
+				We take help from the way that elements are stored in memory, so we need not compare them.
+				(They only work with fixed size integers only)
+
+			Overview:	(Took a while to make :D)
+
+			_____________________________________________________________________________________
+			|       Algorithm       | TimeBest | TimeWorst | space |   UseCase					 |
+			|_______________________|__________|___________|_______|_____________________________|
+			| Bubble Sort			|  O(N)    |  O(N^2)   |  O(1) |   Just for Demonstration	 |
+			| Insertion Sort        |  O(N)    |  O(N^2)   |  O(1) |   Almost Sorted Data		 |
+			| Selection Sort        |  O(N^2)  |  O(N^2)   |  O(1) |   Never					 |
+			| MergeSort             |  O(NlogN)|  O(NlogN) |  O(N) |   Good - space constraint	 |
+			| Quick Sort            |  O(NlogN)|  O(N^2)   |O(logN)|   Best when data not sorted |
+			| Radix/Counting Sort   |  best ;) |  best ;)  |best ;)|   Only for limited integers |
+			|_______________________|__________|___________|_______|_____________________________|
+
+
+
 
