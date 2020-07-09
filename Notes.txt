@@ -23,6 +23,7 @@
 			| Radix/Counting Sort   |  best ;) |  best ;)  |best ;)|   Only for limited integers |
 			|_______________________|__________|___________|_______|_____________________________|
 
-
+6: 10/07/2020: Searching: BinarySearch recursion(implemented on first go, my first recursion success Lol!) 
+			   and iterative implementation
 
 
