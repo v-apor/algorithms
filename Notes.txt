@@ -13,17 +13,20 @@
 			Overview:	(Took a while to make :D)
 
 			_____________________________________________________________________________________
-			|       Algorithm       | TimeBest | TimeWorst | space |   UseCase					 |
+			|       Algorithm       | TimeBest | TimeWorst | space |   UseCase		     |		 
 			|_______________________|__________|___________|_______|_____________________________|
-			| Bubble Sort			|  O(N)    |  O(N^2)   |  O(1) |   Just for Demonstration	 |
-			| Insertion Sort        |  O(N)    |  O(N^2)   |  O(1) |   Almost Sorted Data		 |
-			| Selection Sort        |  O(N^2)  |  O(N^2)   |  O(1) |   Never					 |
-			| MergeSort             |  O(NlogN)|  O(NlogN) |  O(N) |   Good - space constraint	 |
+			| Bubble Sort		|  O(N)    |  O(N^2)   |  O(1) |   Just for Demonstration    |
+			| Insertion Sort        |  O(N)    |  O(N^2)   |  O(1) |   Almost Sorted Data	     |
+			| Selection Sort        |  O(N^2)  |  O(N^2)   |  O(1) |   Never		     |
+			| MergeSort             |  O(NlogN)|  O(NlogN) |  O(N) |   Good - space constraint   |
 			| Quick Sort            |  O(NlogN)|  O(N^2)   |O(logN)|   Best when data not sorted |
 			| Radix/Counting Sort   |  best ;) |  best ;)  |best ;)|   Only for limited integers |
 			|_______________________|__________|___________|_______|_____________________________|
 
 6: 10/07/2020: Searching: BinarySearch recursion(implemented on first go, my first recursion success Lol!) 
 			   and iterative implementation
+
+7: 14/07/2020: Searching: BreadthFirstSearch implementation on top of Binary Search Tree DS. Took a lot of time (It was intemedating) after thinking and pen and paper,
+			  it turned out to be quite easy: Implemented queue using LinkedList(Java) and output list usnig ArrayList(Java).
 
 
