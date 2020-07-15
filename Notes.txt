@@ -26,7 +26,9 @@
 6: 10/07/2020: Searching: BinarySearch recursion(implemented on first go, my first recursion success Lol!) 
 			   and iterative implementation
 
-7: 14/07/2020: Searching: BreadthFirstSearch implementation on top of Binary Search Tree DS. Took a lot of time (It was intemedating) after thinking and pen and paper,
+7: 14/07/2020: Searching: BreadthFirstSearch on Tree implementation on top of Binary Search Tree DS. Took a lot of time (It was intemedating) after thinking and pen and paper,
 			  it turned out to be quite easy: Implemented queue using LinkedList(Java) and output list usnig ArrayList(Java).
+
+8: 15/07/2020: DepthFirstSearch recursive implementation on Tree: InOrder + PreOrder + PostOrder
 
 
