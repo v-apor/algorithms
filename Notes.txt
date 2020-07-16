@@ -30,5 +30,11 @@
 			  it turned out to be quite easy: Implemented queue using LinkedList(Java) and output list usnig ArrayList(Java).
 
 8: 15/07/2020: DepthFirstSearch recursive implementation on Tree: InOrder + PreOrder + PostOrder
+			   + Graphs Traversal theoretical/visual BFS and DFS
+			   + For the cases of weighted graphs, we need Dijkstra's (only for +ve weights) and Bellman-Ford's (-ve weight can be solved) algorithm (Not Checked yet)
+
+9: 16/07/2020: Dynamic Programming: recursion with cache/memory (Momoization IDK)
+	       + Awesome example of benifits of DP on fibonacci series// checkout FibonacciNaive and FibonacciDP for 44+ as input!!!!
+	       + probably the first time i'm looking at the importance of optimisation
 
 
