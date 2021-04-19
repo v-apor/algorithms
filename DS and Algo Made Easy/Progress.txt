@@ -1,0 +1,2 @@
+1: 18/04/2021: Variables, Data Type(s), Abstract Data Type(Data + Operations), Data Structure(Linear, Non Linear)
+2: 19/04/2021: Time Complexity, Asymptotic Notations
